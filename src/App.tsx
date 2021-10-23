@@ -6,9 +6,5 @@ type Person = {
 };
 
 export default function App() {
-  let Aryan: Person = {
-    age: 22,
-    name: "Aryan22",
-  };
-  return <h1 className="font-bold text-8xl text-red-400">{Aryan.name}</h1>;
+  return <h1 className="font-bold text-8xl text-red-400">Hello World</h1>;
 }
